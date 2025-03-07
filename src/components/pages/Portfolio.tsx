@@ -1,4 +1,4 @@
-import Project from '../Project';
+import Project from '../project';
 
 const projectData = [
     {
@@ -32,7 +32,7 @@ const projectData = [
       deployed: "https://drive.google.com/file/d/1Yy7Q0Lm3xgsRqM9El3YWAKM819-TaMqM/view"
     },
     {
-      title: "Project 6",
+      title: "Coming Soon Project 6",
       image: "https://via.placeholder.com/150",
       github: "https://github.com",
       deployed: "https://deployed.com"
@@ -41,14 +41,14 @@ const projectData = [
 
 export default function Portfolio() {
     return (
-      <div>
+      <>
         <h1>Portfolio Page</h1>
         <div className= "project-container">
        {projectData.map((project, index) => (
          <Project key={index} title={project.title} image={project.image} github={project.github} deployed={project.deployed} />
         ))}
         </div>
-      </div>
+      </>
     );
   }
   

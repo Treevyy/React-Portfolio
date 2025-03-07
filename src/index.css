@@ -1,0 +1,15 @@
+.project {
+  width: 30%;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card-img-top {
+  height: 170px;
+  object-fit: cover;
+}
