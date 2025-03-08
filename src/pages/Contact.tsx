@@ -5,7 +5,7 @@ export default function Contact() {
   // [variable, methodToUpdate] = useState('initialValue);
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
+    // const [message, setMessage] = useState('');
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 
     const handleSubmit = (event: any) => {
@@ -13,7 +13,7 @@ export default function Contact() {
 
       console.log(name);
       console.log(email); 
-      console.log(message);
+      // console.log(message);
 
       console.log("Form Submitted ")
     };
@@ -89,7 +89,7 @@ export default function Contact() {
         <div>
           <h2>{name}</h2>
           <h2>{email}</h2>
-          <h2>{message}</h2>
+          {/* <h2>{message}</h2> */}
         </div>
       </div>
     );
