@@ -26,7 +26,7 @@ const router = createBrowserRouter([
         element: <Portfolio />,
       },
       {
-        path: '/Blog',
+        path: '/Contact',
         element: <Contact />,
       },
       {
