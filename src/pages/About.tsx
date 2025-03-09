@@ -6,7 +6,7 @@ export default function About() {
         <section id="Bio">
           <h2>Bio</h2>
         <p>
-        Hi, I'm Trevor Moore, a student in the EDX SMU Full-Stack Web Developer Bootcamp with a deep passion for web development. At 32 years old and born and raised in Dallas, Texas. My spouse and I have been together for 15 years, we have two beautiful kids together, one is our spirited 3-year-old daughter and the other is our adorable 4-month-old son. I am driven by the desire to build a new and better life in the tech industry for our family.
+        Hi, I'm Trevor Moore, a student in the EDX SMU Full-Stack Web Developer Bootcamp with a deep passion for web development. At 32 years old and born and raised in Dallas, Texas. My spouse and I have been together for 15 years, we have two wonderful kids together, one is our beautiful 3-year-old daughter and the other is our adorable 4-month-old son. I am driven by the desire to build a new and better life in the tech industry for our family.
         </p>
         </section>
         
@@ -21,6 +21,9 @@ export default function About() {
             <li>React, NoSQL, and the MERN stack</li>
             <li>Authentication, Testing, Deployment and CI/CD</li>
             <li>Python and Object-Oriented Programming with Python</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Agile Methodologies</li>
+            <li>GitHub</li>
           </ul>
         </p>
         </section>
@@ -44,6 +47,7 @@ export default function About() {
             <li>Server and APIs</li>
             <li>SQL</li>
             <li>React</li>
+            <li>GitHub</li>
           </ul>
           While I'm still at the beginning of my journey in tech, I'm excited to expand my expertise and explore new technologies as I grow.
         </p>
