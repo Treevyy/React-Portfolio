@@ -5,6 +5,8 @@ import './index.css'
 import App from './App.tsx'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import '@fontsource/outfit';
+// import '@fontsource/roboto';
 
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
