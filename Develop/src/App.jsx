@@ -1,5 +1,6 @@
 import Navbar from "./componets/Navbar"
 import Home from "./componets/Home.jsx"
+import About from "./componets/About.jsx"
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Navbar />
       <Home />
+      <About />
     </div>
   )
 }
