@@ -5,6 +5,7 @@ import Skills from "./componets/Skills.jsx"
 import Projects from "./componets/Projects.jsx"
 import Resume from "./componets/Resume.jsx"
 import Contact from "./componets/Contact.jsx"
+import Socials from "./componets/Socials.jsx"
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Projects/>
       <Resume/>
       <Contact/>
+      <Socials/>
     </div>
   )
 }
