@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
-import Initials from '../assets/initials.png'
+import initials from '../assets/initials.png'
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className='fixed z-50 w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-white'>
         <div>
-            <img src={Initials} alt="Initials" style={{width: '80px'}}/>
+            <img src={initials} alt="Initials" style={{width: '80px'}}/>
         </div>
         
             <ul className='hidden md:flex ml-auto'>
