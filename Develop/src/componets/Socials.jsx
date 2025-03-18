@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 const Socials = () => {
   return (
-    <footer name='socials' className='w-full bg-[#0a192f] text-gray-300 py-8'>
+    <footer name='socials' className='w-full pt-[80px] bg-[#0a192f] text-gray-300 py-8'>
         <div className='max-w-[1000px] mx-auto flex flex-col items-center'>
             <p className='text-3xl font-bold mb-2'>Socials</p>
             <div className='w-32 border-b-2 border-[#8c52ff] mb-4'></div>

@@ -1,14 +1,14 @@
 import React from 'react'
-import WeatherDashboard from '../assets/weatherdashboard.png'
-import Blackjack from '../assets/blackjack.png'
-import Fizz from '../assets/fizz.png'
-import README from '../assets/readmefilegenerator.png'
-import VehicleBuilder from '../assets/vehiclebuilder.png'
-import EmployeeTracker from '../assets/employeetracker.png'
+import weatherdashboard from '../assets/weatherdashboard.png'
+import blackjack from '../assets/blackjack.png'
+import fizz from '../assets/fizz.png'
+import readme from '../assets/readmefilegenerator.png'
+import vehiclebuilder from '../assets/vehiclebuilder.png'
+import employeetracker from '../assets/employeetracker.png'
 
 const Projects = () => {
   return (
-    <div name='projects' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+    <div name='projects' className='w-full min-h-screen text-gray-300 bg-[#0a192f]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
             <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#8c52ff]'>Projects</p>
@@ -16,7 +16,7 @@ const Projects = () => {
         </div>
 
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-            <div style={{ backgroundImage: `url(${WeatherDashboard})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div style={{ backgroundImage: `url(${weatherdashboard})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                 <div className='opacity-0 group-hover:opacity-100'>
                     <span className='text-2xl font-bold text-white tracking-wider'>
@@ -33,7 +33,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div style={{ backgroundImage: `url(${Blackjack})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div style={{ backgroundImage: `url(${blackjack})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                 <div className='opacity-0 group-hover:opacity-100'>
                     <span className='text-2xl font-bold text-white tracking-wider'>
                         Blackjack
@@ -49,7 +49,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div style={{ backgroundImage: `url(${Fizz})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div style={{ backgroundImage: `url(${fizz})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                 <div className='opacity-0 group-hover:opacity-100'>
                     <span className='text-2xl font-bold text-white tracking-wider'>
                         Fizz Dating App
@@ -65,7 +65,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div style={{ backgroundImage: `url(${VehicleBuilder})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div style={{ backgroundImage: `url(${vehiclebuilder})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                 <div className='opacity-0 group-hover:opacity-100'>
                     <span className='text-2xl font-bold text-white tracking-wider'>
                         Vehicle Builder
@@ -81,7 +81,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div style={{ backgroundImage: `url(${README})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div style={{ backgroundImage: `url(${readme})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                 <div className='opacity-0 group-hover:opacity-100'>
                     <span className='text-2xl font-bold text-white tracking-wider'>
                     README File Generator
@@ -97,7 +97,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div style={{ backgroundImage: `url(${EmployeeTracker})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div style={{ backgroundImage: `url(${employeetracker})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                 <div className='opacity-0 group-hover:opacity-100'>
                     <span className='text-2xl font-bold text-white tracking-wider'>
                         Employee Tracker
