@@ -6,6 +6,7 @@ import readme from '../assets/readmefilegenerator.png'
 import vehiclebuilder from '../assets/vehiclebuilder.png'
 import employeetracker from '../assets/employeetracker.png'
 
+
 const Projects = () => {
   return (
     <div name='projects' className='w-full min-h-screen text-gray-300 bg-[#0a192f]'>
@@ -18,7 +19,7 @@ const Projects = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
             <div style={{ backgroundImage: `url(${weatherdashboard})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
-                <div className='opacity-100 md:opacity-0 md:group-hover:opacity-100 transition duration-300'>
+                <div className='opacity-0 group-hover:opacity-100'>
                     <span className='text-2xl font-bold text-white tracking-wider'>
                         Weather Dashboard
                     </span>
