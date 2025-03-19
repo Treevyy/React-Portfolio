@@ -36,25 +36,25 @@
   
   The application is designed as a single-page React portfolio that displays the following sections:
 
-  Home:
+  Home - 
   Provides a welcome or introductory message to visitors.
 
-  About Me:
+  About Me - 
   Offers a detailed overview of your background, including your photo and a brief bio.
 
-  Skills:
+  Skills - 
   Lists your technical proficiencies and areas of expertise.
 
-  Projects:
+  Projects - 
   Showcases your portfolio projects with images, descriptions, and links to both deployed applications and their GitHub repositories.
 
-  Resume:
+  Resume - 
   Includes a downloadable version of your resume and highlights your professional experience.
 
-  Contact:
+  Contact - 
   Features a contact form that allows visitors to send inquiries, along with your displayed contact details.
 
-  Socials:
+  Socials - 
   Displays links to your social media profiles (e.g., GitHub, LinkedIn, and additional future platforms will be added).
 
   ## Technologies
