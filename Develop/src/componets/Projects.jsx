@@ -10,7 +10,7 @@ import employeetracker from '../assets/employeetracker.png'
 const Projects = () => {
   return (
     <div name='projects' className='w-full min-h-screen text-gray-300 bg-[#0a192f]'>
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+      <div className='w- full max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
             <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#8c52ff]'>Projects</p>
             <p className='py-6'>Check out my work for 2025!</p>
