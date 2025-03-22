@@ -76,9 +76,9 @@
 
   ## Screenshots
   
-  <img src="markdown/homepagescreenshot.png" alt="Photo of the home page" width="600" style="margin-bottom: 20px;">
+  <img src="Develop/src/assets/homepagescreenshot.png" alt="Photo of the home page" width="600" style="margin-bottom: 20px;">
 
-  <img src="markdown/projectspagescreenshot.png" alt="Photo of the projects page" width="600" style="margin-bottom: 20px;">
+  <img src="Develop/src/assets/projectspagescreenshot.png" alt="Photo of the projects page" width="600" style="margin-bottom: 20px;">
   
   ## Walkthrough Video
   A demo of the application can be found at the following link: https://drive.google.com/file/d/1GqMhBX4deKtlteTndQvIzUg9wEEVy0qW/view
