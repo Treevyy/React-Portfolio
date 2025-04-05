@@ -5,6 +5,7 @@ import fizz from '../assets/fizz.png'
 import readme from '../assets/readmefilegenerator.png'
 import vehiclebuilder from '../assets/vehiclebuilder.png'
 import employeetracker from '../assets/employeetracker.png'
+import candidatesearch from '../assets/candidatesearch.png'
 
 
 const projectData = [
@@ -43,6 +44,12 @@ const projectData = [
     image: employeetracker,
     github: "https://github.com/Treevyy/Employee-Tracker",
     deployed: "https://app.screencastify.com/v2/manage/videos/G7lXVYVgDeCeURBOTWXo"
+  },
+  {
+    title: "Candidate Search",
+    image: candidatesearch,
+    github: "https://github.com/Treevyy/Candidate-Search",
+    deployed: "https://candidate-search-fgfk.onrender.com/"
   }
 ];
 
