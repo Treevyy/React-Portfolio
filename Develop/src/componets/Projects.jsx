@@ -31,25 +31,37 @@ const projectData = [
     title: "Vehicle Builder",
     image: vehiclebuilder,
     github: "https://github.com/Treevyy/Vehicle-Builder",
-    deployed: "https://app.screencastify.com/v2/manage/videos/0EaD2TrrXB3awiIe0lAo"
+    deployed: "https://drive.google.com/file/d/1Qw5u79WscYuHcdxuzzfyLglho5YIKbpW/view"
   },
   {
     title: "README File Generator",
     image: readme,
     github: "https://github.com/Treevyy/README-File-Generator",
-    deployed: "https://app.screencastify.com/v2/manage/videos/pVpg6GD7UZQbECq1Ynsb"
+    deployed: "https://drive.google.com/file/d/1ypGWTxIBea_0EZGGuwxYkWO1SCozieXw/view"
   },
   {
     title: "Employee Tracker",
     image: employeetracker,
     github: "https://github.com/Treevyy/Employee-Tracker",
-    deployed: "https://app.screencastify.com/v2/manage/videos/G7lXVYVgDeCeURBOTWXo"
+    deployed: "https://drive.google.com/file/d/1Yy7Q0Lm3xgsRqM9El3YWAKM819-TaMqM/view"
   },
   {
     title: "Candidate Search",
     image: candidatesearch,
     github: "https://github.com/Treevyy/Candidate-Search",
     deployed: "https://candidate-search-fgfk.onrender.com/"
+  },
+  {
+    title: "Kanban Board",
+    image: kanbanboard,
+    github: "https://github.com/Treevyy/Kanban-Board",
+    deployed: "https://kanban-board-msxw.onrender.com"
+  },
+  {
+    title: "Scoial Network API",
+    image: socialnetworkapi,
+    github: "https://github.com/Treevyy/Social-Network-API",
+    deployed: "https://drive.google.com/file/d/1USuTK3OpDaSEx6LQWmUx_XwgnUdPOKol/view?usp=sharing"
   }
 ];
 
