@@ -6,6 +6,8 @@ import readme from '../assets/readmefilegenerator.png'
 import vehiclebuilder from '../assets/vehiclebuilder.png'
 import employeetracker from '../assets/employeetracker.png'
 import candidatesearch from '../assets/candidatesearch.png'
+import kanbanboard from '../assets/kanbanboard.png'
+import socialnetworkapi from '../assets/socialnetworkapi.png'
 
 
 const projectData = [
@@ -55,7 +57,11 @@ const projectData = [
     title: "Kanban Board",
     image: kanbanboard,
     github: "https://github.com/Treevyy/Kanban-Board",
-    deployed: "https://kanban-board-msxw.onrender.com"
+    deployed: "https://kanban-board-msxw.onrender.com",
+    credentials: {
+      username: "JollyGuru",
+      password: "password"
+    }
   },
   {
     title: "Scoial Network API",
@@ -82,6 +88,12 @@ const Projects = () => {
                 <a href={project.github} target='_blank' rel='noreferrer' className='text-center rounded-lg px-4 py-2 m-2 bg-[#1e3a8a] text-white font-bold text-lg transition-colors duration-300 ease-in-out hover:bg-[#1e40af]'>GitHub</a>
                 <a href={project.deployed} target='_blank' rel='noreferrer' className='text-center rounded-lg px-4 py-2 m-2 bg-[#1e3a8a] text-white font-bold text-lg transition-colors duration-300 ease-in-out hover:bg-[#1e40af]'>Deployed</a>
               </div>
+              {project.credentials && (
+                <div className='mt-2 text-sm text-gray-400'>
+                  <p><strong>Username:</strong> {project.credentials.username}</p>
+                  <p><strong>Password:</strong> {project.credentials.password}</p>
+                </div>
+              )}
             </div>
           ))}
         </div>
