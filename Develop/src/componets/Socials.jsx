@@ -8,7 +8,7 @@ const Socials = () => {
             <p className='text-3xl font-bold mb-2'>Socials</p>
             <div className='w-32 border-b-2 border-[#8c52ff] mb-4'></div>
             <div className='flex space-x-6'>
-                <a href='https://www.linkedin.com/in/aaron-trevor-moore/' target='_blank' rel='noreferrer' className='hover:text-[#8c52ff] transition-colors duration-300'>
+                <a href='https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile' target='_blank' rel='noreferrer' className='hover:text-[#8c52ff] transition-colors duration-300'>
                     <FaLinkedin size={30} />
                 </a>
                 <a href='https://github.com/Treevyy' target='_blank' rel='noreferrer' className='hover:text-[#8c52ff] transition-colors duration-300'>
