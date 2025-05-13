@@ -8,6 +8,10 @@ import employeetracker from '../assets/employeetracker.png'
 import candidatesearch from '../assets/candidatesearch.png'
 import kanbanboard from '../assets/kanbanboard.png'
 import socialnetworkapi from '../assets/socialnetworkapi.png'
+import booksearchengine from '../assets/booksearchengine.png'
+import techquiztestsuite from '../assets/techquiztestsuite.png'
+import githubactions from '../assets/githubactions.png'
+import codezilla from '../assets/codezilla.png'
 
 
 const projectData = [
@@ -68,6 +72,30 @@ const projectData = [
     image: socialnetworkapi,
     github: "https://github.com/Treevyy/Social-Network-API",
     deployed: "https://drive.google.com/file/d/1USuTK3OpDaSEx6LQWmUx_XwgnUdPOKol/view?usp=sharing"
+  },
+ {
+    title: "Book Search Engine",
+    image: booksearchengine,
+    github: "https://github.com/Treevyy/Book-Search-Engine",
+    deployed: "https://book-search-engine-i5f5.onrender.com"
+  },
+   {
+    title: "Tech Quiz Test Suite",
+    image: techquiztestsuite,
+    github: "https://github.com/Treevyy/Tech-Quiz-Test-Suite",
+    deployed: "https://drive.google.com/file/d/15DaVA2Tb-8K8FmawfDwR8JZpidLSvb8Q/view"
+  },
+   {
+    title: "GitHub Actions CI-CD Setup",
+    image: githubactions,
+    github: "https://github.com/Treevyy/GitHub-Actions-CI-CD-Setup",
+    deployed: "https://drive.google.com/file/d/13M3UUT9ARd3Nw7q2rc_wEXY9IVbuxJ9V/view"
+  },
+    {
+    title: "Codezilla",
+    image: codezilla,
+    github: "https://github.com/Treevyy/Codezilla",
+    deployed: "https://codezilla-fnqd.onrender.com/"
   }
 ];
 
